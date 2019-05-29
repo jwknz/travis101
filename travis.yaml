@@ -6,7 +6,7 @@ cache:
     - "node_modules"
 addons:
   ssh_known_hosts:
-  - 128.199.230.238
+  - "128.199.230.238"
 after_success:
   - git branch
   - git checkout master
