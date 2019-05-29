@@ -6,7 +6,7 @@ cache:
     - "node_modules"
 addons:
   ssh_known_hosts:
-  - tga.ecti.ac.nz
+  - 128.199.230.238
 after_success:
   - git branch
   - git checkout master
