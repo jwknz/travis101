@@ -7,7 +7,8 @@
     "start": "node app",
     "dev": "nodemon",
     "prod": "forever stopall && forever start --minUptime=1000 --spinSleepTime=1000 app.js",
-    "stop": "forever stopall"
+    "stop": "forever stopall",
+    "list": "forever list"
   },
   "keywords": [],
   "author": "",
